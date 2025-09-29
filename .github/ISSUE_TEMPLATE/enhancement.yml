@@ -1,0 +1,38 @@
+name: Enhancement
+description: Propose an improvement or new capability
+title: "[Enhancement]: "
+labels: ["enhancement"]
+assignees: []
+
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What problem are we solving and what’s the desired change?
+      placeholder: Brief summary, context, and goals…
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance criteria
+      description: Conditions that must be met for this to be considered done.
+      value: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+        - [ ] Non-functional (perf, a11y, security) if applicable
+    validations:
+      required: true
+
+  - type: textarea
+    id: keep_in_mind
+    attributes:
+      label: To keep in mind
+      description: Risks, dependencies, constraints, or notes.
+      placeholder: e.g., impacts on mobile, feature flags, migrations, compatibility…
+    validations:
+      required: false
+

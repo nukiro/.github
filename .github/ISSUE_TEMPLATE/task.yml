@@ -1,10 +1,7 @@
 name: Task
 description: Small, actionable task (often created from a parent issue)
 title: "[Task]: "
-labels: ["task"]        # auto-apply your custom task label
-assignees: []
-# Optionally add to Projects (owner/project_number):
-# projects: ["your-org-or-user/1"]
+labels: ["task"]
 
 body:
   - type: textarea
